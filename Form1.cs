@@ -17,7 +17,7 @@ namespace WPM2000
             InitializeComponent();
         }
 
-        // Toolstrip: About
+        // File -> About
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             aboutDialog.Show();

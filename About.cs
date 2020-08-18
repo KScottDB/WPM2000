@@ -23,5 +23,12 @@ namespace WPM2000
         {
             Process.Start(githubLink);
         }
+
+        // Hide instead of close
+        private void About_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            Hide();
+        }
     }
 }
