@@ -11,6 +11,7 @@ namespace WPM2000
     public partial class Form1 : Form
     {
         private About aboutDialog = new About();
+        private ClientInterface client = new ClientInterface("http://wpm2k.kscott.cf");
 
         public Form1()
         {

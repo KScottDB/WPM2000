@@ -44,7 +44,7 @@ namespace WPM2000
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.listBoxAvailPkgs = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -128,7 +128,7 @@ namespace WPM2000
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.checkedListBox1);
+            this.tabPage1.Controls.Add(this.listBoxAvailPkgs);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -192,19 +192,16 @@ namespace WPM2000
             this.button2.Text = "Process Queue";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // checkedListBox1
+            // listBoxAvailPkgs
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "7-Zip 9.20 (95+)",
-            "CamStudio 2.0 (95+)",
-            "InstallShield 5 Professional (95+)",
-            "VLC Media Player 1.1.11 (95/NT4+)",
-            "Visual Studio 2005 Professional (2kSP4+)"});
-            this.checkedListBox1.Location = new System.Drawing.Point(6, 6);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(345, 304);
-            this.checkedListBox1.TabIndex = 0;
+            this.listBoxAvailPkgs.FormattingEnabled = true;
+            this.listBoxAvailPkgs.Items.AddRange(new object[] {
+            "Sample Text",
+            "Sample Text"});
+            this.listBoxAvailPkgs.Location = new System.Drawing.Point(6, 6);
+            this.listBoxAvailPkgs.Name = "listBoxAvailPkgs";
+            this.listBoxAvailPkgs.Size = new System.Drawing.Size(345, 303);
+            this.listBoxAvailPkgs.TabIndex = 0;
             // 
             // Form1
             // 
@@ -248,9 +245,9 @@ namespace WPM2000
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListBox listBoxAvailPkgs;
     }
 }
 
