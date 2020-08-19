@@ -22,5 +22,19 @@ namespace WPM2000
         {
             aboutDialog.Show();
         }
+
+        // File -> Install package from disk...
+        private void installPackageFromDiskToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // TODO
+            throw new NotImplementedException("This function has not been written yet.");
+        }
+
+        // File -> Install package from URL...
+        private void installPackageFromURLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // TODO
+            throw new NotImplementedException("This function has not been written yet.");
+        }
     }
 }
