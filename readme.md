@@ -2,7 +2,7 @@
 WPM2000 (Windows Package Manager 2000) is a package
 manager for retro Windows installations.
 
-This repository contains the C# client targeted at
+This repository contains the (INCOMPLETE) C# client targeted at
 [.NET Framework 2.0][1] and it's compatible
 operating systems.
 
@@ -16,4 +16,4 @@ WPM2000 is designed to be built and developed inside
 
 ## Repositories
 The official software repository for WPM2000 is
-located at `http://wpm2k.kscott.cf`.
+located at `http://wpm2k.zulc22.com`.
